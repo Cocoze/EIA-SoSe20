@@ -8,19 +8,43 @@ a {
  color: white; 
  background:black; 
  text-decoration: none;
- 
-}
+ display: block;
+ padding: 2px;
+ border: 10px;
 
-h1 {
+}
+.active {
+    color: red;
+}
+.text-align{
+    left;
+}
+h1, h2 {
 font-family: sans-serif;
 text-align: center; 
-color: red
+color: red;
 }
 
+h4 {
+    color: white;
+    background: lightgrey;
+    display: block;
+   padding: 5px;
+   text-decoration: none;
+   }
 
-div{ 
-    background-image: url("Hintergrund.png");
-    background-size: 100% 100%;
+h5 {
+    color: white;
+    background-color: lightgrey;
+    padding: 6px;
+    margin: 6px;
+
+}
+p {
+    text-align: center;    
+}
+body{ 
+    background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe3/Hintergrund.png");
     background-repeat: repeat;
     width: 100%;
 }
@@ -28,7 +52,7 @@ img {
     display: block; 
     margin-right: auto; 
     margin-left: auto;
-    padding-top: 500px;
+
 }
 video {
 display: block; 
