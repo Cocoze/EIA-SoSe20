@@ -1,4 +1,12 @@
-li {
+header {
+background-color:red;
+height: 75px;
+width: 150px;
+-webkit-border-radius: 0px 0px 300px 300px;
+-moz-border-radius: 0px 0px 300px 300px;
+border-radius: 0px 0px 300px 300px;
+}
+ li {
     list-style: none;
     text-align: right;
     float: right;
@@ -24,7 +32,13 @@ font-family: sans-serif;
 text-align: center; 
 color: red;
 }
-
+.kontakt {
+    text-align:left;
+}
+.about {
+    text-align:center;
+    margin-top: 10px;
+}
 h4 {
     color: white;
     background: lightgrey;
@@ -38,6 +52,7 @@ h5 {
     background-color: lightgrey;
     padding: 6px;
     margin: 6px;
+    width: 100px;
 
 }
 p {
