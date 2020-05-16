@@ -52,10 +52,13 @@ font-size: 40px;
 
 }
 h2 {
-font-family: sans-serif; 
-color:darkred; 
-position: relative;
-left:37%;
+    font-family: sans-serif;
+    color:darkred;
+    padding: 0px;
+    margin-left: 290px;
+    position: sticky;
+    left: 50%;
+    font-size: 40px;
 }  
 
 
