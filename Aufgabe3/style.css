@@ -1,16 +1,23 @@
 header {
-background-color:red;
-height: 75px;
-width: 150px;
--webkit-border-radius: 0px 0px 300px 300px;
--moz-border-radius: 0px 0px 300px 300px;
-border-radius: 0px 0px 300px 300px;
+background-color:darkred;
+height: 400px;
+width: 800px;
+-webkit-border-radius: 0px 500px 500px 500px;
+-moz-border-radius: 0px 500px 500px 500px;
+border-radius: 0px 0px 700px 700px;
+display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top:-20px;
 }
+
+
  li {
     list-style: none;
     text-align: right;
     float: right;
-    
+    font-size: 20px;
+     
 }
 a {
  color: white; 
@@ -22,16 +29,36 @@ a {
 
 }
 .active {
-    color: red;
+    color: darkred;
+    
 }
-.text-align{
-    left;
+.button {
+    transition-duration:0.4s;
+
 }
-h1, h2 {
+.button:hover {
+    background-color: black;
+    padding: 5px;
+    color:darkred;
+}
+h1 {
 font-family: sans-serif;
-text-align: center; 
-color: red;
+color:darkred;
+padding: 0px;
+margin-left: 210px;
+position: sticky;
+left: 50%;
+font-size: 40px;
+
 }
+h2 {
+font-family: sans-serif; 
+color:darkred; 
+position: relative;
+left:37%;
+}  
+
+
 .kontakt {
     text-align:left;
 }
@@ -39,6 +66,8 @@ color: red;
     text-align:center;
     margin-top: 10px;
 }
+
+
 h4 {
     color: white;
     background: lightgrey;
@@ -47,16 +76,83 @@ h4 {
    text-decoration: none;
    }
 
-h5 {
+.Kontakt {
+    color: darkred;
+    position:relative;
+    text-align:left;
+    margin-top: -700px;
+    margin-left: 200px;
+}
+.Formular {
     color: white;
-    background-color: lightgrey;
-    padding: 6px;
-    margin: 6px;
-    width: 100px;
-
+    background: lightgrey;
+    font-size:15pt;
+    width: 200px;
+    padding: 5px, 5px, 5px, 5px;
+    margin-left: 200px;
+    text-align: left;
+}
+.Nachricht {
+    color: white;
+    background: lightgrey;
+    font-size:15pt;
+    width: 200px;
+    padding: 20px, 80px, 5px, 5px;
+    margin-left: 200px;
+    text-align: left;
+}
+.Datenschutz {
+    color: lightgrey;
+    font-size:15pt;
+    margin-left: 200px;
+    text-align: left;
+    position: relative;
+}
+.Absenden {
+    color: white;
+    background: lightgrey;
+    font-size:15pt;
+    margin-left: 200px;
+    padding: 5px, 5px, 5px, 5px;
+    width: 55px;
 }
 p {
     text-align: center;    
+}
+.textkreis {
+    color: rgb(245, 232, 220);
+    font-size: 120px;
+    font-family:Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.textkreis1 {
+    color: rgb(245, 232, 220);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.textkreis2 {
+    color: rgb(245, 232, 220);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.textkreis3 {
+    color: rgb(245, 232, 220);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 body{ 
     background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe3/Hintergrund.png");
