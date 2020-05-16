@@ -20,8 +20,7 @@ display: block;
      
 }
 a {
- color: white; 
- background:black; 
+ color: white;  
  text-decoration: none;
  display: block;
  padding: 2px;
@@ -34,6 +33,12 @@ a {
 }
 .button {
     transition-duration:0.4s;
+    color: white; 
+    background:black; 
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    border: 10px;
 
 }
 .button:hover {
@@ -117,10 +122,15 @@ h4 {
     font-size:15pt;
     margin-left: 200px;
     padding: 5px, 5px, 5px, 5px;
-    width: 55px;
+    width: 100px;
+}
+style{
+    color:white;
 }
 p {
-    text-align: center;    
+    text-align: center;   
+    font-size: 15pt; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 .textkreis {
     color: rgb(245, 232, 220);
@@ -179,5 +189,7 @@ display: block;
     height:50px;
   
 }
-
+.cf {
+    color:white;
+ margin-top: 100px;
 }
