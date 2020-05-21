@@ -1,6 +1,6 @@
 .blume {
     background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe%204/blumenwiese.jpg");
-     width: 100%;
+     background-size: cover;
     background-color:#ffffff;
 }
 }

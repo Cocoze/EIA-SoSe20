@@ -10,6 +10,8 @@
     align-items: center;
     flex-direction: row;
     padding-top: 60px;
+    position: absolute;
+    left: 350px;
 }
 .cf {
     color:white;
@@ -18,10 +20,44 @@
 p {
     color:white;
     font-size: 15pt;
+    left:-550px;
+    top:-50px;
+    position: relative;
 }
 .Name {
     padding:2px;
+    position: relative;
+    left: -550px;
+    top:-50px;
+    text-align: right;
    }
 .Urlaub {
-    padding: 20px;
+    padding: 25px;
+    padding-right: 120px;
+    position: relative;
+    left: -550px;
+    top:-50px;
+
+
+}
+.choose {
+padding:2px;
+position: relative;
+left: -550px;
+top:-50px;
+}
+#eins {
+    left: -550px;
+    position: relative;
+    top:-60px;
+}
+#zwei {
+    left: -550px;
+    position: relative;
+    top:-60px;
+}
+label {
+    left: -550px;
+    position: relative;
+    top:-60px;
 }
