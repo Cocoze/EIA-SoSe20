@@ -1,0 +1,44 @@
+.Hintergrund2 {
+    background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe%204/Station%202/Hintergrund2.png");
+    background-repeat: repeat;
+    width: 100%;
+    background-color:#ffffff;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.Muschel1 {
+    position: absolute;
+    padding-right: 140px;
+}
+.Muschel2 {
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 120px;
+}
+.MuschelPerle {
+    position: absolute;
+    padding-right: 400px;
+    padding-top: 230px;
+}
+h2 {
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+}
+.Muschel1 {
+    transition-duration:0.4s;
+    display: block;
+    padding: 2px;
+    border: 10px;
+
+}
+.Muschel1:hover {
+    background-color: black;
+    padding: 5px;
+    background-image: url(muschel_perle.png);
+}

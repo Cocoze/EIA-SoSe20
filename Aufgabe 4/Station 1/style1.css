@@ -1,7 +1,34 @@
-body{ 
+.Hintergrund{ 
     background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe%204/Station%201/Hintergrund1.png");
     background-repeat: repeat;
     width: 100%;
     background-color:#ffffff;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 60px;
+    
 
+}
+.Pinguin {
+    position: absolute;
+    
+}
+.Shell {
+    position: absolute;
+}
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+p {
+    color:white;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }

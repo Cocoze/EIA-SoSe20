@@ -1,0 +1,27 @@
+.Hintergrund3 {
+    background-image: url("https://raw.githubusercontent.com/Cocoze/EIA-SoSe20/master/Aufgabe%204/Station%203/Hintergrund3.png");
+    background-repeat: repeat;
+    width: 100%;
+    background-color:#ffffff;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.cf {
+    color:white;
+ margin-top: 100px;
+}
+p {
+    color:white;
+    font-size: 15pt;
+}
+.Name {
+    padding:2px;
+   }
+.Urlaub {
+    padding: 20px;
+}
