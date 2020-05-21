@@ -10,35 +10,53 @@
     align-items: center;
     flex-direction: row;
     padding-top: 60px;
+    position: absolute;
+    left: 350px;
 }
 .Muschel1 {
-    position: absolute;
-    padding-right: 140px;
+    position: relative;
+    height: 62px;
+    width: 70px;
+    left: -350px;
+    background:  url("muschel2.png");
+    z-index: 0;
+    
 }
+.Muschel:hover {
+    background:url("muschel_perle2.png");
+    
+    z-index: 999;
+}
+    
+
 .Muschel2 {
-    position: absolute;
-    padding-top: 140px;
-    padding-left: 120px;
+    position: relative;
+    height: 62px;
+    width: 70px;
+    left: -250px;
+    top: 100px;
+    background-image:  url("muschel2.png");
+    z-index: 0;
+    
+
 }
-.MuschelPerle {
-    position: absolute;
-    padding-right: 400px;
-    padding-top: 230px;
+.Perle {
+    position: relative;
+    height: 62px;
+    width: 70px;
+    left: -680px;
+    top:130px;
+    background:url("muschel_perle2.png");
+}
+.Perle:hover{
+    background:url("muschel2.png");
+    
+    z-index: 999;
 }
 h2 {
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center
-}
-.Muschel1 {
-    transition-duration:0.4s;
-    display: block;
-    padding: 2px;
-    border: 10px;
-
-}
-.Muschel1:hover {
-    background-color: black;
-    padding: 5px;
-    background-image: url(muschel_perle.png);
+    text-align: center;
+    position: relative;
+   top: 100px;
 }

@@ -10,8 +10,20 @@
         align-items: center;
         flex-direction: row;
         padding-top: 60px;
+        position: absolute;
+        z-index: 20;
+        left: 350px;
     }
 .Youtube {
-    position: absolute;
-   
+    position: relative;
+    left:-755px;
+   z-index: 100;
+   display: inline-block;
+
+}
+.Banderole {
+    position: relative;
+    z-index: 999;
+    left: -230px;
+    top: 137px;
 }

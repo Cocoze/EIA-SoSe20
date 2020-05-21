@@ -10,25 +10,40 @@
     align-items: center;
     flex-direction: row;
     padding-top: 60px;
+    position: absolute;
+    padding-left: 340px;
     
 
 }
 .Pinguin {
-    position: absolute;
+    position: relative;
+    left: -100px;
+    top: 100px;
+    display: inline-block;
     
+ 
 }
 .Shell {
-    position: absolute;
+    position: relative;
+    left: -830px;
+    top: 140px;
+    display: inline-block;
 }
 h1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    
+    position: relative;
+    top: 120px;
+    left: 400px;
+    display: inline-block;
+
 }
 p {
     color:white;
     font-size: 15pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-}
+    position:relative;
+    top: 140px;
+    {
