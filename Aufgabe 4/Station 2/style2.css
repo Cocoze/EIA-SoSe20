@@ -47,6 +47,7 @@
     left: -680px;
     top:130px;
     background:url("muschel_perle2.png");
+    
 }
 .Perle:hover{
     background:url("muschel2.png");
@@ -59,4 +60,5 @@ h2 {
     text-align: center;
     position: relative;
    top: 100px;
+  
 }

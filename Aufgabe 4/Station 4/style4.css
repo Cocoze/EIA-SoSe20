@@ -28,6 +28,7 @@
     hyphens: auto;
     border-collapse: separate;
     border-spacing: 50px;
+    column-gap: 25px;
     
 }
 .zwei {
@@ -38,6 +39,7 @@
     top: 90px;
     text-align: justify;
     hyphens: auto;
+    column-gap: 25px;
 }
 h1 {
     position: relative;
