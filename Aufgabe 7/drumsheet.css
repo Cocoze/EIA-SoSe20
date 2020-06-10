@@ -1,3 +1,10 @@
 .play-button {
    text-align: center; 
 }
+
+.blume {
+background-image: url("blumenwiese.jpg");
+
+background-size: cover;
+
+}
