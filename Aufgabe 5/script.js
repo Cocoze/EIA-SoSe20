@@ -1,4 +1,3 @@
-"use strict";
 console.log("Europa");
 var emissionEuropa = 4209.3;
 var gesamtemissionEurpa = 100 / (31116.5 / 4209.3);
