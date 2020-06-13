@@ -1,3 +1,4 @@
+// Ich habe mich mit Fiona Virnich ausgetauscht
 var sound1: HTMLAudioElement = new Audio("A.mp3");
 var sound2: HTMLAudioElement = new Audio("C.mp3");
 var sound3: HTMLAudioElement = new Audio("F.mp3");

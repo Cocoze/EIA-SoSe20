@@ -1,3 +1,4 @@
+// Ich habe mich mit Fiona Virnich ausgetauscht
 var sound1 = new Audio("A.mp3");
 var sound2 = new Audio("C.mp3");
 var sound3 = new Audio("F.mp3");
