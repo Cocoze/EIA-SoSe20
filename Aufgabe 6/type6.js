@@ -1,3 +1,4 @@
+"use strict";
 console.log("hallo");
 window.addEventListener("load", function () {
     var emissionEuropa = 4209.3;
