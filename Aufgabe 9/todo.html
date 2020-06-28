@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletodo.css">
+    <script src="functions.js"></script>
+    <script src="https://kit.fontawesome.com/4f6e0f2f94.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body class="hintergrund">
+    <p>To-Do Liste</p>
+    <ul id="element1">
+        <li value="1">
+            <input type="checkbox"> lernen <i style="color:white; margin-left: 80px;  font-size: 25px;" class="fas fa-trash" class="closer"></i>
+        </li>
+        <li>
+            <input type="checkbox"> einkaufen <i style="color:white; font-size: 25px;" class="fas fa-trash" id="playbutton2" class="closer"></i>
+        </li>
+        <li>
+            <input type="checkbox"> Sport <i style="color:white; font-size: 25px;" class="fas fa-trash" id="playbutton3"></i>
+
+        </li>
+    </ul>
+    <input id="inputFeld" type="text"> </input>
+    <button onclick="addElement()" class="addBtn">Add</button>
+</body>
+
+</html>

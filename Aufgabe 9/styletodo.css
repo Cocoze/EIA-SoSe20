@@ -1,0 +1,52 @@
+.hintergrund {
+    background-color: lightcoral;
+}
+
+p {
+    font-size: 35pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.c1 {
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 550px;
+    line-height: 60px;
+}
+
+#c1 {
+    size: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+#element1 {
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 550px;
+    line-height: 60px;
+    color: black;
+}
+
+#inputFeld {
+    width: 200px;
+    height: 30px;
+    margin-left: 590px;
+    line-height: 60px;
+}
+
+.addBtn {
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.fa-trash {
+    color: white;
+    font-size: 25px;
+}
