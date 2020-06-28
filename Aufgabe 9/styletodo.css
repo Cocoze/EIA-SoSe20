@@ -2,8 +2,14 @@
     background-color: lightcoral;
 }
 
-p {
+h1 {
     font-size: 35pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }

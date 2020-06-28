@@ -1,15 +1,14 @@
 //Ich habe mit Fiona Virnich zusammen gearbeitet
 
-/* var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
-}
- */
+var anzahl: number = 4;
+
+window.addEventListener("load", function(){
+  document.querySelector(".fas fa-trash closer").addEventListener("click", function(){deleteTask();});
+  document.querySelector(".closer").addEventListener("click", function(){deleteTask();});
+  document.querySelector(".closer").addEventListener("click", function(){deleteTask();});
+  document.querySelector(".closer").addEventListener("click", function(){deleteTask();});
+});
+
 function addElement(): void {
 
 
@@ -31,17 +30,30 @@ function addElement(): void {
     var icon = document.createElement("i");
     icon.className = "fas fa-trash";
     icon.classList.add("closer");
+    icon.addEventListener("click", function() {deleteTask (anzahl);});
+    li.appendChild(icon);
 
-
+    anzahl++;
+    
+    zähler();
     //var txt = document.createTextNode("DELETE");
 
     //butt.appendChild(txt);
-    li.appendChild(icon);
-
+    
 
 }
 
-function deleteElement(): void {
-  var element = document.getElementById("element1");
-element.parentNode.removeChild(li);
+function deleteTask (task: number): void {
+  var element1 = document.getElementById("element1");
+  if (element1.hasChildNodes()) {
+    element1.removeChild (element1.childNodes[task]);
+  }
+  anzahl--;
+  zähler();
+
+}
+
+function zähler(): void {
+  var i: number = 0;
+  document.getElementById("anzahl").innerText = anzahl + "zu erfüllende Tasks";
 }
