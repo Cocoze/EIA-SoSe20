@@ -1,10 +1,10 @@
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30pt;
-    color: firebrick;
+    color: orange;
 }
 
 .foto {
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
