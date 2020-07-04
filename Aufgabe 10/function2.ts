@@ -1,6 +1,7 @@
-// Ich habe mir bei Sara Voigt Hilfe geholt
-var todosText: string[] = ["Essen" , "Sport" , "Party"];
-var todosChecked: boolean[] = [true, false, false];
+// Ich habe mit Fiona Virnich zusammengearbeitet und mir bei Sara Voigt Hilfe geholt
+
+//var todoslText: string[] = ["Essen" , "Sport" , "Party"];
+//var todoslChecked: boolean[] = [true, false, false];
 
 
 interface Todo {
@@ -8,7 +9,7 @@ interface Todo {
     isChecked: boolean;
 }
 
-var todos: Todo[] = [
+var todosl: Todo[] = [
     {
         text: "Essen", isChecked: true
     },
@@ -46,60 +47,47 @@ window.addEventListener ("load", function(): void {
 function drawListToDOM(): void {
      todosDOMElement.innerHTML = "";
 
-    for (let index: number = 0; index < todosText.length; index++) {
+    for (let index: number = 0; index < todosl.length; index++) {
 
         let todo: HTMLElement = document.createElement("div");
 
         todo.classList.add("todo");
        
-        todo.innerHTML =  "<span class='check " + todos[index].isChecked + "'><i class='fas fa-check'></i></span>"
+        todo.innerHTML =  "<span class='check " + todosl[index].isChecked + "'><i class='fas fa-check'></i></span>"
 
-        + todos[index].text +
+        + todosl[index].text +
 
         "<span class='trash fas fa-trash-alt'></span>";
 
 
 
         // Zuweisen der Event-Listener für den Check- und den Trash-Button
-
         todo.querySelector(".check").addEventListener("click", function(): void {
-
             toggleCheckState(index);
-
         });
 
         todo.querySelector(".trash").addEventListener("click", function(): void {
-
               deleteTodo(index);
-
         });
-
-
-
-        // Bis hier hin wurde das neue Todo "zusammengebaut", jetzt wird es in den DOM gerendert.
 
         todosDOMElement.appendChild(todo);
 
     }
 
-
-
     updateCounter();
 
 }
 
-
-
 function updateCounter(): void {
- counterTotalDOMElement.innerHTML = todos.length + " in total";
+ counterTotalDOMElement.innerHTML = todosl.length + " in total";
  
  let counterChecked: number = 0;
  let counterOpen: number = 0;
 
- for (let i: number = 0; i < todos.length; i++) {
-     console.log(todos[i].isChecked);
+ for (let i: number = 0; i < todosl.length; i++) {
+     console.log(todosl[i].isChecked);
 
-    if (todos[i].isChecked == true) {
+    if (todosl[i].isChecked == true) {
         counterChecked++;
     
     } else {
@@ -111,39 +99,29 @@ counterDoneDOMElement.innerHTML = counterChecked + " in done";
 counterOpenDOMElement.innerHTML = counterOpen + " in open";
 }
 
-
-
 function addTodo(): void {
-
-
     if (inputDOMElement.value != "") {
-
            // todosText.unshift(inputDOMElement.value);
-            todos.unshift({text: inputDOMElement.value, isChecked: false});
-          
-    }
-                
-            inputDOMElement.value = "";
+            todosl.unshift({text: inputDOMElement.value, isChecked: false});
+              }
+              inputDOMElement.value = "";
 
         drawListToDOM();
 
     }
 
 function toggleCheckState(index: number): void {
-
-    todos[index].isChecked = !todos[index].isChecked;
-
+    todosl[index].isChecked = !todosl[index].isChecked;
     drawListToDOM();
 
 }
 
-
 function deleteTodo(index: number): void {
 
 
-    todosText.splice(index, 1);
-    todosChecked.splice(index, 1);
-    todos.splice(index, 1); 
+    todoslText.splice(index, 1);
+    todoslChecked.splice(index, 1);
+    todosl.splice(index, 1); 
     drawListToDOM();
 
 }
