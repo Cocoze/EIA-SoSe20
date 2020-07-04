@@ -1,4 +1,5 @@
-// Ich habe mit Fiona Virnich zusammengearbeitet und mir bei Sara Voigt Hilfe geholt
+// Viel mit Markus im Praktikum bearbeitet
+//Außerdem habe ich mich mit Fiona Virnich und Sara Voigt ausgtetauscht
 
 //var todoslText: string[] = ["Essen" , "Sport" , "Party"];
 //var todoslChecked: boolean[] = [true, false, false];
