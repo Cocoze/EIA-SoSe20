@@ -120,8 +120,8 @@ function toggleCheckState(index: number): void {
 function deleteTodo(index: number): void {
 
 
-    todoslText.splice(index, 1);
-    todoslChecked.splice(index, 1);
+    //todosltext.splice(index, 1);
+    //todoslisChecked.splice(index, 1);
     todosl.splice(index, 1); 
     drawListToDOM();
 

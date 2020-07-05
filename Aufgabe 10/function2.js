@@ -1,5 +1,6 @@
 "use strict";
-// Ich habe mit Fiona Virnich zusammengearbeitet und mir bei Sara Voigt Hilfe geholt
+// Viel mit Markus im Praktikum bearbeitet
+//Außerdem habe ich mich mit Fiona Virnich und Sara Voigt ausgtetauscht
 var todosl = [
     {
         text: "Essen", isChecked: true
@@ -76,8 +77,8 @@ function toggleCheckState(index) {
     drawListToDOM();
 }
 function deleteTodo(index) {
-    todoslText.splice(index, 1);
-    todoslChecked.splice(index, 1);
+    //todosltext.splice(index, 1);
+    //todoslisChecked.splice(index, 1);
     todosl.splice(index, 1);
     drawListToDOM();
 }
