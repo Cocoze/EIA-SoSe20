@@ -1,5 +1,5 @@
-// Viel mit Markus im Praktikum bearbeitet
-//Außerdem habe ich mich mit Fiona Virnich und Sara Voigt ausgtetauscht
+// mit Markus im Praktikum 
+//Außerdem habe ich mich bei Rebecca Räschke inspirieren lassen
 
 //var todoslText: string[] = ["Essen" , "Sport" , "Party"];
 //var todoslChecked: boolean[] = [true, false, false];
