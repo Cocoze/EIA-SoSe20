@@ -155,7 +155,7 @@ window.addEventListener("load", function (): void {
         setTimeout(
             function (): void {
                 artyom.initialize({
-                    lang: "de-DE",
+                 lang: "de-DE",
                     continuous: true,
                     listen: true,
                     interimResults: true,
@@ -164,7 +164,7 @@ window.addEventListener("load", function (): void {
                     console.log("Ready!");
                 });
             },
-            250);
+            150);
     }
 
     startContinuousArtyom();
