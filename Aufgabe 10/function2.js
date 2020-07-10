@@ -85,7 +85,7 @@ function deleteTodo(index) {
 window.addEventListener("load", function () {
     const artyom = new Artyom();
     artyom.addCommands({
-        indexes: ["erstelle Aufgabe *"],
+        indexes: ["bitte hinzufügen *"],
         smart: true,
         action: function (i, wildcard) {
             console.log("Neue Aufgabe wird erstellt: " + wildcard); //wildcard ist Platzhalter
